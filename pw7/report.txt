@@ -1,0 +1,32 @@
+The Rail Fence Cipher is a classical transposition cipher that rearranges plaintext characters in a
+zig-zag pattern across multiple "rails" (rows) before reading them row-wise to form the ciphertext. 
+This project implements the Rail Fence Cipher in  Java, supporting encryption and decryption with a variable depth 
+(minimum depth of 3 as requested).
+        ~Encryption Process~
+1.Initialize Rails 
+
+2.Zig-Zag Placement 
+    2.1 . Start at the first rail and place the first character of the plaintext in the first position of th
+    at rail.
+    2.2 . Move to the next rail and place the next character in the next position
+    2.3 . Continue this process until all characters have been placed in the zig-zag
+
+3.Read the ciphertext row-wise from the zig-zag pattern
+
+
+        ~Decryption Process~
+1.Reconstruct Rail Pattern
+2.Place ciphertext characters sequentially in the marked positions.
+3.Traverse the rails in the same zig-zag pattern to reconstruct the original plaintext.
+
+
+
+
+
+
+
+
+
+
+
+
