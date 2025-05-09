@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 //pw3
 public class SubstitutionCipher {

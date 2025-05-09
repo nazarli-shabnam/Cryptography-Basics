@@ -3,7 +3,7 @@ from Crypto.Util.Padding import pad, unpad
 from Crypto.Random import get_random_bytes
 import base64
 import os
-
+#pw5
 BLOCK_SIZE = 16 
 
 def generate_key():

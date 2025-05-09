@@ -1,3 +1,5 @@
+#pw7
+
 def encrypt(plaintext, depth):
     if depth < 2:
         raise ValueError("Depth must be 2 or greater")

@@ -1,3 +1,6 @@
+#pw6
+
+
 class PlayfairCipher:
     def __init__(self):
         self.SIZE = 5

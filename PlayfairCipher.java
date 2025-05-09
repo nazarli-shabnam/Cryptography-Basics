@@ -1,4 +1,5 @@
-package pw6;
+//pw6
+
 
 import java.util.Scanner;
 
